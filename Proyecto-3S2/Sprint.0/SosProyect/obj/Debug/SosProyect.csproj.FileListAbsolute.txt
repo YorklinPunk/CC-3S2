@@ -1,0 +1,14 @@
+D:\Desarrollo de Software\SosProyect\SosProyect\bin\Debug\SosProyect.exe.config
+D:\Desarrollo de Software\SosProyect\SosProyect\bin\Debug\SosProyect.exe
+D:\Desarrollo de Software\SosProyect\SosProyect\bin\Debug\SosProyect.pdb
+D:\Desarrollo de Software\SosProyect\SosProyect\obj\Debug\SosProyect.csproj.AssemblyReference.cache
+D:\Desarrollo de Software\SosProyect\SosProyect\obj\Debug\SosProyect.csproj.SuggestedBindingRedirects.cache
+D:\Desarrollo de Software\SosProyect\SosProyect\obj\Debug\SosProyect.Properties.Resources.resources
+D:\Desarrollo de Software\SosProyect\SosProyect\obj\Debug\SosProyect.csproj.GenerateResource.cache
+D:\Desarrollo de Software\SosProyect\SosProyect\obj\Debug\SosProyect.csproj.CoreCompileInputs.cache
+D:\Desarrollo de Software\SosProyect\SosProyect\obj\Debug\SosProyect.exe
+D:\Desarrollo de Software\SosProyect\SosProyect\obj\Debug\SosProyect.pdb
+D:\Desarrollo de Software\SosProyect\SosProyect\obj\Debug\SosProyect.Form1.resources
+D:\Desarrollo de Software\SosProyect\SosProyect\bin\Debug\SosPruebaNUnit.dll
+D:\Desarrollo de Software\SosProyect\SosProyect\bin\Debug\SosPruebaNUnit.pdb
+D:\Desarrollo de Software\SosProyect\SosProyect\obj\Debug\SosProyect.csproj.CopyComplete

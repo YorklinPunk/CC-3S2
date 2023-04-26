@@ -1,0 +1,6 @@
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnit\bin\Debug\SosPruebaNUnit.dll
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnit\bin\Debug\SosPruebaNUnit.pdb
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnit\obj\Debug\SosPruebaNUnit.csproj.AssemblyReference.cache
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnit\obj\Debug\SosPruebaNUnit.csproj.CoreCompileInputs.cache
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnit\obj\Debug\SosPruebaNUnit.dll
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnit\obj\Debug\SosPruebaNUnit.pdb
