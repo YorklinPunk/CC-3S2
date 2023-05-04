@@ -1,183 +1,174 @@
-﻿using System.Windows.Forms;
-using SosPruebaNUnit;
+﻿using System;
+using System.Drawing;
+using System.Windows.Forms;
 
 namespace SosProyect
 {
     public partial class Form1 : Form
     {
-        string resultado = "";
-        string valorInput = "";
+        string lastTurn = "Blue";
+        string letterBlue = "S";
+        string letterRed = "S";
+
+        
+        //ASIGNAMOS UN VALOR DE SALIDA PARA CADA COLOR
+
         public Form1()
         {
             InitializeComponent();
-            label1.Text = "Juego SOS";
-            button1.Text = "Iniciar Juego";
-            label2.Text = "Turno Jugador 3";
-            label3.Text = "Turno Jugador 2";
+            radioButton1.Checked = true;
+            radioButton4.Checked = true;
+            radioButton5.Checked = true;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
-
-        private void textBox1_TextChanged(object sender, System.EventArgs e)
-        {
-            valorInput = textBox1.Text;
-            resultado = Class1.insertLetter(textBox1.Text);
-            if (resultado == "Letra inválida")
-            {
-                textBox1.Text = "";
-                MessageBox.Show(resultado);
-                textBox1.Focus();
-            }
-            else
-            {
-                textBox1.Enabled = false;
-            }
-        }
-
-        private void textBox2_TextChanged(object sender, System.EventArgs e)
-        {
-            valorInput = textBox2.Text;
-            resultado = Class1.insertLetter(textBox2.Text);
-            if (resultado == "Letra inválida")
-            {
-                textBox2.Text = "";
-                MessageBox.Show(resultado);
-                textBox1.Focus();
-            }
-            else
-            {
-                textBox2.Enabled = false;
-            }
-        }
-
-        private void textBox3_TextChanged(object sender, System.EventArgs e)
-        {
-            valorInput = textBox3.Text;
-            resultado = Class1.insertLetter(textBox3.Text);
-            if (resultado == "Letra inválida")
-            {
-                textBox3.Text = "";
-                MessageBox.Show(resultado);
-                textBox3.Focus();
-            }
-            else
-            {
-                textBox3.Enabled = false;
-            }
-        }
-
-        private void textBox4_TextChanged(object sender, System.EventArgs e)
-        {
-            valorInput = textBox4.Text;
-            resultado = Class1.insertLetter(textBox4.Text);
-            if (resultado == "Letra inválida")
-            {
-                textBox4.Text = "";
-                MessageBox.Show(resultado);
-                textBox4.Focus();
-            }
-            else
-            {
-                textBox4.Enabled = false;
-            }
-        }
-
-        private void textBox5_TextChanged(object sender, System.EventArgs e)
-        {
-            valorInput = textBox5.Text;
-            resultado = Class1.insertLetter(textBox5.Text);
-            if (resultado == "Letra inválida")
-            {
-                textBox5.Text = "";
-                MessageBox.Show(resultado);
-                textBox5.Focus();
-            }
-            else
-            {
-                textBox5.Enabled = false;
-            }
-        }
-
-        private void textBox6_TextChanged(object sender, System.EventArgs e)
-        {
-            valorInput = textBox6.Text;
-            resultado = Class1.insertLetter(textBox6.Text);
-            if (resultado == "Letra inválida")
-            {
-                textBox6.Text = "";
-                MessageBox.Show(resultado);
-                textBox6.Focus();
-            }
-            else
-            {
-                textBox6.Enabled = false;
-            }
-        }
-
-        private void textBox7_TextChanged(object sender, System.EventArgs e)
-        {
-            valorInput = textBox7.Text;
-            resultado = Class1.insertLetter(textBox7.Text);
-            if (resultado == "Letra inválida")
-            {
-                textBox7.Text = "";
-                MessageBox.Show(resultado);
-                textBox7.Focus();
-            }
-            else
-            {
-                textBox7.Enabled = false;
-            }
-        }
-
-        private void textBox8_TextChanged(object sender, System.EventArgs e)
-        {
-            valorInput = textBox8.Text;
-            resultado = Class1.insertLetter(textBox8.Text);
-            if (resultado == "Letra inválida")
-            {
-                textBox8.Text = "";
-                MessageBox.Show(resultado);
-                textBox8.Focus();
-            }
-            else
-            {
-                textBox8.Enabled = false;
-            }
-        }
-
-        private void textBox9_TextChanged(object sender, System.EventArgs e)
-        {
-            valorInput = textBox9.Text;
-            resultado = Class1.insertLetter(textBox9.Text);
-            if (resultado == "Letra inválida")
-            {
-                textBox9.Text = "";
-                MessageBox.Show(resultado);
-                textBox9.Focus();
-            }
-            else
-            {
-                textBox9.Enabled = false;
-            }
-        }
-
-
-        private void button1_Click(object sender, System.EventArgs e)
-        {
-        }
         private void label1_Click(object sender, System.EventArgs e)
         {
         }
+        
 
-        private void label2_Click(object sender, System.EventArgs e)
+        private void label4_Click(object sender, System.EventArgs e)
         {
+
         }
-        private void label3_Click(object sender, System.EventArgs e)
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, System.EventArgs e)
         {
+     
+        }
+
+        private void radioButton1_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                letterRed = "S";
+            }
+        }
+
+        private void radioButton2_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if (radioButton2.Checked)
+            {
+                letterRed = "O";
+            }
+        }
+        private void radioButton4_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if (radioButton4.Checked)
+            {
+                letterBlue = "S";
+            }
+        }
+
+        private void radioButton3_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if (radioButton3.Checked)
+            {
+                letterBlue = "O";
+            }
+        }
+
+
+        private void textBox10_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //VALIDACIÓN PARA PERMITER SOLO NÚMEROS
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+
+        private void groupBox1_Enter(object sender, System.EventArgs e)
+        {
+           
+        }
+        private void groupBox2_Enter(object sender, System.EventArgs e)
+        {
+            
+        }
+
+        private void textBox10_TextChanged(object sender, System.EventArgs e)
+        {
+            int cantidad;
+
+            if (!int.TryParse(textBox10.Text, out cantidad))
+            {
+                return;
+            }
+
+            deleteTextBox();
+
+            // CREAMOS LOS TEXTBOX Y LO AGRAGAMOS AL PANEL2
+            for (int i = 0; i < cantidad; i++)
+            {
+                for (int j = 0; j < cantidad; j++)
+                {
+                    panel2.Controls.Add(createTextBox(i,j));
+                }
+            }
+        }
+        private void deleteTextBox()
+        {
+            for (int i = panel2.Controls.Count - 1; i >= 0; i--)
+            {
+                if (panel2.Controls[i] is TextBox)
+                {
+                    panel2.Controls.RemoveAt(i);
+                }
+            }
+        }
+        private TextBox createTextBox(int i, int j)
+        {
+            TextBox textBox = new TextBox();
+            textBox.Margin = new Padding(0);
+            textBox.TextAlign = HorizontalAlignment.Center;
+            textBox.MaxLength = 1;
+            textBox.Size = new Size(30, 30);
+            textBox.Name = "textBox" + i.ToString() + "-" + j.ToString();
+            textBox.Location = new Point((j * textBox.Width), (i * textBox.Height));
+
+            textBox.Enter += new EventHandler(delegate (object sender2, System.EventArgs e2)
+            {
+                textBox.Text = getTurn() == "Red" ? letterRed : letterBlue;
+
+                //CAMBIAR TURNO AUMTOMATICAMENTE AL SELECCIONAR SU CAMPO
+                changeTurn();
+            });
+
+            return textBox;
+        }
+        public string getTurn()
+        {
+            return lastTurn;
+        }   
+        public void changeTurn()
+        {
+            lastTurn = getTurn() == "Red" ? "Blue" : "Red";
+            button1.Text = $"it's the {lastTurn} player's turn";
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Text = "it's the Blue player's turn";
         }
     }
 }
