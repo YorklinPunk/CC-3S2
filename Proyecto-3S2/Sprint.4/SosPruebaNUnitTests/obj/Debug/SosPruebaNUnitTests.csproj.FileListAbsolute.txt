@@ -1,0 +1,22 @@
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnitTests\bin\Debug\SosPruebaNUnitTests.dll
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnitTests\bin\Debug\SosPruebaNUnitTests.pdb
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnitTests\bin\Debug\SosPruebaNUnit.dll
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnitTests\bin\Debug\SosPruebaNUnit.pdb
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnitTests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnitTests\obj\Debug\SosPruebaNUnitTests.csproj.AssemblyReference.cache
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnitTests\obj\Debug\SosPruebaNUnitTests.csproj.CoreCompileInputs.cache
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnitTests\obj\Debug\SosPruebaNUnitTests.csproj.CopyComplete
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnitTests\obj\Debug\SosPruebaNUnitTests.dll
+D:\Desarrollo de Software\SosProyect\SosPruebaNUnitTests\obj\Debug\SosPruebaNUnitTests.pdb
+E:\SosProyect\SosPruebaNUnitTests\bin\Debug\SosPruebaNUnitTests.dll
+E:\SosProyect\SosPruebaNUnitTests\bin\Debug\SosPruebaNUnitTests.pdb
+E:\SosProyect\SosPruebaNUnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\SosProyect\SosPruebaNUnitTests\bin\Debug\SosPruebaNUnit.dll
+E:\SosProyect\SosPruebaNUnitTests\bin\Debug\SosPruebaNUnit.pdb
+E:\SosProyect\SosPruebaNUnitTests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\SosProyect\SosPruebaNUnitTests\obj\Debug\SosPruebaNUnitTests.csproj.AssemblyReference.cache
+E:\SosProyect\SosPruebaNUnitTests\obj\Debug\SosPruebaNUnitTests.csproj.CoreCompileInputs.cache
+E:\SosProyect\SosPruebaNUnitTests\obj\Debug\SosPruebaNUnitTests.csproj.CopyComplete
+E:\SosProyect\SosPruebaNUnitTests\obj\Debug\SosPruebaNUnitTests.dll
+E:\SosProyect\SosPruebaNUnitTests\obj\Debug\SosPruebaNUnitTests.pdb
