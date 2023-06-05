@@ -1,13 +1,14 @@
 public class TaxCalculator {
     public double calculateTax(double value) {
-        //POST CONDICION value < 0
-
+        //PRE CONDICION value < 0
+        // VALOR  DE ENTRADA VALUE MAYOR QUE O IGUAL QUE 0
         if (value < 0) {
             throw new RuntimeException("...");
         }
         double taxValue = 0;
 
-        //taxValue
+        //POST CONDICION 
+        //VALOR DE RETORNO DEL PROGAMA DEVUELVE UN DOUBLE MAYOR O IGUAL QUE 0
         if(taxValue < 0) {
             throw new RuntimeException("...");
         }
